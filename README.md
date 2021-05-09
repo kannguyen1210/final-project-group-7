@@ -7,7 +7,7 @@ We will use machine learning to see if it can predict the race of an individual 
 We want to see if the individuals killed by police were indeed a threat, or were the killings race driven.
 
 
-Support Vector Machine (SVM) was used to split and train our model because it can give us a binary classifier True or False answer.
+A Logistic Regression model was used to predict if the individuals were African American or not.
 
 In the first portion we want to see if the individuals killed by police were indeed a threat, or race driven
 
