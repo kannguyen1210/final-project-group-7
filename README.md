@@ -81,6 +81,24 @@ These variables were inputed into our Logistic Regression Model to see if the mo
 
 <img src="https://github.com/kannguyen1210/final-project-group-7/blob/main/Data/Body_Camera_Results_Easy_Ensemble.png" width="550" height="400">
 
-## In the second portion of the project we want to explore conceptual similarities scores across relevant words we have chosen using Natural Language Processing (NLP), heavily drawing from machine learning and AI models GloVe (GLobal Vectors for Word Representation) and spaCy
+## In the second portion of the project we used CosineSimilarity Scores as part of NLP 
 
+### Model
+
+The initial part of the analysis relies on a word embedding model derived from GloVe (Global Vectors for Word Representation). The model was published by Stanford in 2018 and relies on an unsupervised learning algorithm to obtain vector representations for words using a variety of neuralnetwork models. Training is performed on an aggregated global word co-occurrence matrix from a massive corpus of text (close to 1.5 million words). Ultimately, the output of that training - which we draw on heavily here - is a 300-dimensional vector to represent each word. These resulting representations showcase interesting linear substructures of the word vector space. The main intuition underlying the model is the simpleobservation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning. Using these vector representations, one can ascertain cosine similarity between word vectors. This is an effective method for measuring the linguistic or semantic similarityof the corresponding words. 
+
+### Similarity score: 
+GloVe produces word vectors with a marked banded structure that is more easily apparent upon visualization (particularly when dimensionality reduction is achieved via PCA or t-SNE). The cosine similarity score ranges from 0-1 and it measures the degree of similarity between two vectors (how closely they are to pointing in the same direction). While it doesn’t represent a percentage – it can be thought of in a similar way where the closer the value is to 1 the more closely aligned the two vectors are in this massive 300-dimensional word space. The SpaCy library (an open-source software foradvanced natural language processing) was used in order to measure cosine similarity.
+
+### Context 
+The analysis included a wordlist of 9 words and listed the top 300 similarity scores for each word.
+
+### Findings 
+
+brutality 0.687317760308143 Oppression Rank 8
+hate-crime 0.568610358797755 Racism Rank 24
+policing 0.406902994213914 Racism Ranke 178
+injustice 0.688244656577722 Racism Rank 7
+
+We didn't find any relevant similarity scores int he top 300 words for: arrest report, arrest, black, african-american and mental health
 Dashboard: Our plans for the dashboard revolves around an interactive Tableau page that demonstrates visuals surrounding police brutality/targeted racism.
