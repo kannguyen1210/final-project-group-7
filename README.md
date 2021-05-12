@@ -101,4 +101,5 @@ policing 0.406902994213914 Racism Ranke 178
 injustice 0.688244656577722 Racism Rank 7
 
 We didn't find any relevant similarity scores int he top 300 words for: arrest report, arrest, black, african-american and mental health
-Dashboard: Our plans for the dashboard revolves around an interactive Tableau page that demonstrates visuals surrounding police brutality/targeted racism.
+
+## Dashboard: Our plans for the dashboard revolves around an interactive Tableau page that demonstrates visuals surrounding police brutality/targeted racism.
