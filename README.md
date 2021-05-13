@@ -24,16 +24,19 @@ The dataset takes in the various facotrs: age, gender, signs of mental illness, 
 Raw data loaded into the database tables.
 
 ## Database with tables and relationship
-**Service**  : AWS RDS
-**Endpoint** : database-1.cukfyvhxl6ur.us-west-1.rds.amazonaws.com 
-**Database** : PostgresSQL
+* **Service**  : AWS RDS
 
-**Tables   **:
-* State_demographic : Holds the statewise race details.
-* Fatal_encounter_org : Fatal Encounter details of each state
-* Shootings_washington_post : Shooting details of each state 
-* Fatal_ec_w_demog : Fatal encounters joined with state demographics
-* Shootings_wp_w_demog : Shootings joined with state demographics
+* **Endpoint** : database-1.cukfyvhxl6ur.us-west-1.rds.amazonaws.com 
+
+* **Database** : PostgresSQL
+
+
+* **Tables**   :
+ * State_demographic : Holds the statewise race details.
+ * Fatal_encounter_org : Fatal Encounter details of each state
+ * Shootings_washington_post : Shooting details of each state 
+ * Fatal_ec_w_demog : Fatal encounters joined with state demographics
+ * Shootings_wp_w_demog : Shootings joined with state demographics
 
 * DB create Scripts is available in the sql folder , [init_scripts](https://github.com/kannguyen1210/final-project-group-7/blob/Srini/sql/init_scripts.sql) folder 
 
@@ -46,13 +49,7 @@ The diagram is in the following link  https://app.quickdatabasediagrams.com/#/d/
 
 ![Police Brutality - Code Snippet ](https://github.com/kannguyen1210/final-project-group-7/blob/Srini/sql/sql1.png)
 
-![Police Brutality - Code Snippet ](https://github.com/kannguyen1210/final-project-group-7/blob/Srini/sql/sql12.png)
-
-* Select *
-    from fatal_encounter_org as a 
-    left join
-    state_demographic as b
-    on a.location_of_death_state = b.state
+![Police Brutality - Code Snippet ](https://github.com/kannguyen1210/final-project-group-7/blob/Srini/sql/sql2.png)
 
 
 * DB work Script is available in the sql folder, [work.sql](https://github.com/kannguyen1210/final-project-group-7/blob/Srini/sql/work.sql) 
