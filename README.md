@@ -32,11 +32,11 @@ Raw data loaded into the database tables.
 
 
 * **Tables**   :
- * State_demographic : Holds the statewise race details.
- * Fatal_encounter_org : Fatal Encounter details of each state
- * Shootings_washington_post : Shooting details of each state 
- * Fatal_ec_w_demog : Fatal encounters joined with state demographics
- * Shootings_wp_w_demog : Shootings joined with state demographics
+  * State_demographic : Holds the statewise race details.
+  * Fatal_encounter_org : Fatal Encounter details of each state
+  * Shootings_washington_post : Shooting details of each state 
+  * Fatal_ec_w_demog : Fatal encounters joined with state demographics
+  * Shootings_wp_w_demog : Shootings joined with state demographics
 
 * DB create Scripts is available in the sql folder , [init_scripts](https://github.com/kannguyen1210/final-project-group-7/blob/Srini/sql/init_scripts.sql) folder 
 
