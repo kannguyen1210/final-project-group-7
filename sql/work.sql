@@ -1,3 +1,6 @@
+
+####################
+
 select *  
 from fatal_encounter_org as a
 left join
