@@ -103,3 +103,12 @@ injustice 0.688244656577722 Racism Rank 7
 We didn't find any relevant similarity scores int he top 300 words for: arrest report, arrest, black, african-american and mental health
 
 ## Dashboard: Our plans for the dashboard revolves around an interactive Tableau page that demonstrates visuals surrounding police brutality/targeted racism.
+https://public.tableau.com/profile/madelyn.mathai#!/vizhome/PoliceBrutalityFinalProjectDashboard/Story1?publish=yes
+
+Key Learnings:
+Of those murdered by police, more African American victims tended to be fleeing.
+African Americans also tended to be younger on average.
+African Americans have a higher perceived threat level.
+Despite having a higher perceived threat level, in instances of police brutality against African Americans, body cameras were more likely to be off.
+
+We also produced some visuals in Tableau if the Natural Language Processing.
